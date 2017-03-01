@@ -1,0 +1,44 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+	font-family: "Verdana", sans-serif;
+}
+
+header{
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	text-align: center;
+	color: #808CB2;
+}
+
+body{
+	color: #2B3A4A;
+	font-size: 18px;
+	text-align: left;
+	font-family: "Verdana", sans-serif;
+}
+
+.top{
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #808CB2;
+	font-family: "Verdana", sans-serif;
+}
+
+.quote{
+	color: #808CB2;
+	font-size: 24px;
+	text-align: center;
+	font-family: "Verdana", sans-serif;
+	font-style: italic;
+}
