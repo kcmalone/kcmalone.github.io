@@ -11,7 +11,7 @@ h1{
 }
 
 header{
-	background-image: url(images/hero.jpg);
+	background-image: url(../images/hero.JPG);
 	background-size: cover;
 	height: 700px;
 	text-align: center;
