@@ -79,11 +79,11 @@ a:visited {
 }
 
 #iceland{
-	background-image: url(../images/iceland.jpg);
+	background-image: url(../images/iceland.JPG);
 	float: left;
 }
 #capetown{
-	background-image: url(../images/capetown.jpg);
+	background-image: url(../images/capetown.JPG);
 	float: right;
 }
 
