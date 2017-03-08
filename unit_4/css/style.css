@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Barrio', cursive;
+}
+h2{
+	margin: 10px;
+	font-size: 1.5em;
+}
+header{
+	background-image: url(../images/main.JPG);
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 10px;
+}
+
+body{
+	color: #2B3A4A;
+	font-size: 16px;
+	text-align: left;
+	font-family: 'Shadows Into Light', cursive;
+	margin: 10px;
+}
+
+nav {
+	text-align:center;
+}
+
+img{
+	width: 100px;
+	margin: 10px;
+}
+
+a:visited {
+	color:white;
+}
+.navlinks{
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: #78C4FF;
+	padding: 10px 20px;
+	margin: 30px;
+}
+
+.quote{
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-style: italic;
+}
+
+#namibia, #iceland, #capetown, #bolivia{
+	background-size: cover;
+	position: relative;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	font-color: #FFFFFF;
+	width: 150px;
+	text-align: center;
+	padding: 100px;
+	margin: 10px;
+	font-family: 'Shadows Into Light', cursive;
+}
+#namibia{
+	background-image: url(../images/namibia.JPG);
+	float: left;
+}
+
+#iceland{
+	background-image: url(../images/iceland.jpg);
+	float: left;
+}
+#capetown{
+	background-image: url(../images/capetown.jpg);
+	float: right;
+}
+
+#bolivia{
+	background-image: url(../images/bolivia.JPG);
+	float: right;
+}
