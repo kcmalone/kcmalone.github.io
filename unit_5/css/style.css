@@ -2,6 +2,11 @@
 	padding: 0;
 	margin: 0;
 }
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
 h1 {
 	text-align: center;
 	font-size: 5em;
@@ -28,32 +33,44 @@ body {
 	margin: 10px;
 }
 
-nav a {
+nav {
 	text-align:center;
-	margin-left: 10px
-	margin-right: 10px;
 	font-size: 1.5em;
-	text-decoration: none;
 	font-weight: bold;
+	text-decoration: none;
 	text-align: center;
-	color: #FFFFFF;
+	color: #000;
 	font-family: 'Shadows Into Light', cursive;
-	background-color: #78C4FF;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav a {
+	width: 1200px;
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+}
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    width: 700px;
 }
 img {
 	width: 100px;
 	margin: 10px;
 	float: left;
 }
-
-a:visited {
-	color:white;
-}
 footer {
 	clear: both;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
-.wrapper {
-	width: 1200px
+#wrapper {
+	width: 1500px
 	margin: 0 auto;
 }
 .quote {
@@ -63,15 +80,23 @@ footer {
 	font-family: 'Shadows Into Light', cursive;
 	font-style: italic;
 }
-
-.recent {
+#recent {
+	clear: both;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#namibia,#iceland,#capetown,#bolivia:visited{
+	color: #FFF;
+}
+#namibia,#iceland,#capetown,#bolivia {
 	background-size: cover;
 	position: relative;
 	text-decoration: none;
 	font-size: 2em;
 	font-weight: bold;
 	font-color: #FFFFFF;
-	width: 150px;
+	width: 140px;
 	text-align: center;
 	padding: 100px;
 	margin: 10px;
