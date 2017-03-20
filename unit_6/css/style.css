@@ -1,0 +1,122 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Barrio', cursive;
+}
+h2 {
+	margin: 10px;
+	font-size: 1.5em;
+}
+header {
+	background-image: url(../images/main.JPG);
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 10px;
+}
+
+body {
+	color: #2B3A4A;
+	font-size: 16px;
+	text-align: left;
+	font-family: 'Shadows Into Light', cursive;
+	margin: 10px;
+}
+
+nav {
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav a {
+	width: 1200px;
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+}
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    width: 700px;
+}
+img {
+	width: 100px;
+	margin: 10px;
+	float: left;
+}
+footer {
+	clear: both;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+#wrapper {
+	width: 1500px
+	margin: 0 auto;
+}
+.quote {
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-style: italic;
+}
+#recent {
+	clear: both;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#namibia,#iceland,#capetown,#bolivia:visited{
+	color: #FFF;
+}
+#namibia,#iceland,#capetown,#bolivia {
+	background-size: cover;
+	position: relative;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	font-color: #FFFFFF;
+	width: 140px;
+	text-align: center;
+	padding: 100px;
+	margin: 10px;
+	font-family: 'Shadows Into Light', cursive;
+}
+#namibia {
+	background-image: url(../images/namibia.JPG);
+	float: left;
+}
+
+#iceland {
+	background-image: url(../images/iceland.JPG);
+	float: left;
+}
+#capetown {
+	background-image: url(../images/capetown.JPG);
+	float: right;
+}
+
+#bolivia {
+	background-image: url(../images/bolivia.JPG);
+	float: right;
+}
