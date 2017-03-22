@@ -80,6 +80,35 @@ footer {
 	font-family: 'Shadows Into Light', cursive;
 	font-style: italic;
 }
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 #recent {
 	clear: both;
 	background-color: #FFE2B8;
@@ -113,10 +142,10 @@ footer {
 }
 #capetown {
 	background-image: url(../images/capetown.JPG);
-	float: right;
+	float: left;
 }
 
 #bolivia {
 	background-image: url(../images/bolivia.JPG);
-	float: right;
+	float: left;
 }
