@@ -1,0 +1,225 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	background-image: url(../images/main.JPG);
+	background-size: cover;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	text-align: center;
+	color: #FFFFFF;
+	border: 10px solid #FFF;
+	position:relative;
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Barrio', cursive;
+}
+h2 {
+	margin: 10px;
+	font-size: 1.5em;
+}
+body {
+	color: #2B3A4A;
+	font-size: 16px;
+	text-align: left;
+	font-family: 'Shadows Into Light', cursive;
+	margin: 10px;
+}
+nav {
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+    padding: 20px;
+}
+nav a {
+	width: 100%;
+	padding: 10px 40px;
+	text-decoration:none;
+	color:black;
+}
+a:visted {
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+img {
+	width: 100%;
+	margin: 10px;
+	float: left;
+}
+footer {
+	clear: both;
+    padding: 20px;
+}
+label {
+	padding: 10px 40px;
+	text-decoration:none;
+	color:black;
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	display: none;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+#maintext {
+	position:absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+.quote {
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-style: italic;
+}
+#two_column {
+    padding: 20px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 640px;
+}
+
+#profile {
+    width: 50%;
+    max-width: 200px;
+    float: left;
+}
+#toggle {
+	display: none;
+}
+#about {
+    padding: 30px;
+    float: left;   
+    width: 50%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#recent {
+	clear: both;
+    padding: 10px;
+    margin:auto;
+}
+#namibia,#iceland,#capetown,#bolivia:visited {
+	color: #FFF;
+}
+#namibia,#iceland,#capetown,#bolivia {
+	background-size: cover;
+	width: 25%;
+	position: relative;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	border: 10px solid #FFF;
+	height: 0;
+	padding-bottom: 25%;
+	font-family: 'Shadows Into Light', cursive;
+}
+#namibia {
+	background-image: url(../images/namibia.JPG);
+	float: left;
+}
+
+#iceland {
+	background-image: url(../images/iceland.JPG);
+	float: left;
+}
+#capetown {
+	background-image: url(../images/capetown.JPG);
+	float: left;
+}
+
+#bolivia {
+	background-image: url(../images/bolivia.JPG);
+	float: left;
+}
+#namibia span,#iceland span,#capetown span,#bolivia span {
+	position:absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+@media only screen and (max-width:920px){
+	#wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	#recent {
+		float: none;
+		margin: auto;
+		text-align: center;
+	}
+	#namibia,#iceland,#capetown,#bolivia {
+		float: none;
+		margin: auto;
+		display: block;
+		width: 100%;
+		padding-bottom: 50%;
+	}
+
+@media only screen and (max-width:565px){
+	h1 {
+		font-size: 3em;
+	}
+		img {
+		display: none;
+	}
+	.quote {
+		display: none;
+	}
+	#about {
+		display: none;
+	}
+	nav a:link{
+		display: block;
+		padding: 15px
+		margin: 5px;
+	}
+	label {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	#toggle:checked + nav {
+		display:block;
+	}
+	#namibia,#iceland,#capetown,#bolivia {
+		float: none;
+		margin: auto;
+		display: block;
+		width: 100%;
+		padding-bottom: 50%;
+	}
+}
