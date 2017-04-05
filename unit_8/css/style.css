@@ -60,6 +60,7 @@ img {
 footer {
 	clear: both;
     padding: 20px;
+    color: black;
 }
 label {
 	padding: 10px 40px;
@@ -140,6 +141,7 @@ label {
 	height: 0;
 	padding-bottom: 25%;
 	font-family: 'Shadows Into Light', cursive;
+	color: white;
 }
 #namibia {
 	background-image: url(../images/namibia.JPG);
