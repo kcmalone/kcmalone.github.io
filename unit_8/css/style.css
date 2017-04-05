@@ -128,7 +128,7 @@ label {
 #namibia,#iceland,#capetown,#bolivia:visited {
 	color: #FFF;
 }
-#namibia,#iceland,#capetown,#bolivia {
+#namibia,#iceland,#capetown,#bolivia{
 	background-size: cover;
 	width: 25%;
 	position: relative;
